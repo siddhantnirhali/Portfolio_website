@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.header {
+    display: flex;
+    background: #345246;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar a {
+    display: block;
+    float: left;
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    padding: 5px 7px;
+    margin: 7px;
+    text-decoration: none;
+}
+
+.btn-resume {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 7px;
+    margin: 7px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+.bold-text {
+    color: var(--black-color);
+    font-size: 1rem;
+    font-weight: 800;
+    text-align: left;
+}
+
+.p-text {
+    color: var(--gray-color);
+    font-size: .8rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.services {
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.container {
+    /* height: 700px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 2rem;
+}
+
+.container-home {
+    /* height: 700px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1 1;
+    flex-direction: row;
+    width: 100%;
+}
+
+.row {
+    width: 40%;
+    /* border: 1px solid red; */
+    height: 500px;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.card-shadow {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.app-profile {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: flex-start;
+    display: flex;
+}
+
+.app-profile-items {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2rem;
+    padding: .5rem;
+    width: 220px;
+    align-items: flex-start;
+    display: flex;
+    background: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+.app-profile-items img {
+    height: 220px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.app-wraper {
+    flex: 1 1;
+    flex-direction: column;
+    padding: 4rem 2rem;
+    width: 100%;
+}
+
+.app-about {
+    align-items: center;
+    width: 50%;
+    padding-left: 2rem;
+    flex: flex-start;
+    float: right;
+}
+
+.app-exp {
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.app-about-profile {
+    flex: 1 1;
+    flex-direction: column;
+    padding: 0rem 2rem 2rem;
+    width: 100%;
+    float: right;
+}
+
+.app-about-profile img {
+    width: 200px;
+}
+
+.app-skill {
+    flex: 1 1;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.app-skill-item {
+    flex: 1 1;
+    flex-direction: column;
+    width: 100%;
+    flex-direction: column;
+    margin: 0.5rem;
+    text-align: center;
+    transition: all .3s ease-in-out;
+}
+
+.app-flex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.app-skill-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    width: 80%;
+}
+
+.app-skill-list {
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    align-items: flex-start;
+    display: flex;
+    flex: 1 1;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-right: 6rem;
+}
+
+.app-skill-item div img {
+    height: 100%;
+    width: 100px;
+}
+
+.app-edu {
+    align-items: flex-start;
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    margin-top: 3.5rem;
+    height: 80%;
+}
+
+.app-exp-item {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 1rem 0;
+    padding-left: 2rem;
+    width: 100%;
+}
+
+.contact-item {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1;
+    justify-content: flex-start;
+    margin: 3rem;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.contact-list img {
+    width: 100px;
+}
+
+.contact-form {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    justify-content: flex-start;
+    margin: 3rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-item {
+    display: flex;
+    margin: 1rem;
+}
